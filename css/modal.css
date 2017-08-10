@@ -36,5 +36,6 @@ left(0);
 .modal-container a {
     color: black;
     font-weight: bold;
+    display: block;
     text-align: center;
 }
