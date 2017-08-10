@@ -1,9 +1,6 @@
 .modal-container {
-    font-size: 20px;
-    width: 500px;
-    max-width: 500px;
-    box-sizing: border-box;
-    height: auto;
+    font-size: 15px;
+    max-width: 400px;
     position: fixed;
     background-color: rgba(171, 171, 171, 0.6);
     left: 25%;
