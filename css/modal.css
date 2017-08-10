@@ -1,0 +1,43 @@
+.modal-container {
+    font-size: 20px;
+    width: 500px;
+    max-width: 500px;
+    box-sizing: border-box;
+    height: auto;
+    position: fixed;
+    background-color: rgba(171, 171, 171, 0.6);
+    left: 25%;
+    padding: 25px;
+    color: white;
+    border-radius: 100px;
+    -webkit-transform: translate(-50%, -200%);
+    -ms-transform: translate(-50%, -200%);
+    transform: translate(-50%, -200%);
+    transition: transform 200ms ease-out;
+}
+
+/*before press the href*/
+.modal:before {
+    content: "";
+    position: fixed;
+    display: none;
+top(0);
+left(0);
+    height: 100%;
+}
+
+.modal:target:before {
+    display: block;
+}
+
+.modal:target .modal-container {
+    -webkit-transform: translate(-50%, 40%);
+    -ms-transform: translate(-50%, 40%);
+    transform: translate(-50%, 40%);
+}
+
+.modal-container a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}

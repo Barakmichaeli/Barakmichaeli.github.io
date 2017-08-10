@@ -1,0 +1,96 @@
+/*Using . means for a class*/
+
+html {
+    background: url("../Image/computer.jpg");
+    background-size:100% 140vh;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: "Yu Gothic Light" , sans-serif;
+}
+
+
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 80px;
+    padding: 4px;
+    text-align: center;
+    opacity: 0.8;
+    text-transform: uppercase;
+}
+
+header h3 {
+    line-height: 10px;
+}
+
+
+.navigator-bar{
+    color: white;
+    padding:5px 0 5px 0;
+    text-align: center;
+    line-height: 25px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navigator-bar ul {
+    margin-top: 15px;
+}
+
+.navigator-bar li {
+    display: inline;
+    padding: 0 10px 0 10px;
+    font-size: 16px;
+}
+
+.navigator-bar a{
+    text-decoration: none;
+    color: white;
+    font-variant: small-caps;
+}
+
+.navigator-bar a:hover {
+    color: black;
+}
+
+.prof-Box {
+    margin-left: 50%;
+    border-radius: 60px;
+    margin-top: 40px;
+    text-align: center;
+    color:white;
+    width: 450px;
+    height:auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding:40px;
+}
+
+.image {
+    /*float: right;*/
+    position: center;
+    border-radius: 50%;
+    height: 200px;
+    height:200px;
+}
+
+.inner-text{
+    text-align: left;
+}
+.name-text{
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+.social-icons{
+    font-size: 40px;
+}
+
+/*all a tags inside this class*/
+.social-icons a {
+    text-decoration: none !important;
+    color: white;
+}
+
+i{
+    padding: 5px;
+}
