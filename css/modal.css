@@ -42,7 +42,7 @@ left(0);
 /*between 0 to 1000px*/
 @media screen and (max-width: 1000px) {
     .modal-container {
-        font-size: 15px;
+        font-size: 18px;
         max-width: 30%;
         left: 25%;
         position: absolute;
