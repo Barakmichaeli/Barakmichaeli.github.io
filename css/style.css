@@ -101,4 +101,8 @@ span {
         padding: 0 5px 0 5px;
         font-size: 2vw;
     }
+    .social-icons a {
+        text-decoration: none !important;
+        color: white;
+    }
 }
